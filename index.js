@@ -20,7 +20,7 @@ function iLoveTheBeatles(num){
   var arr = []
   do{
     arr.push("I love the Beatles!")
-    i++
+    num++
   }while(num < 15);
   
   if(num > 14){  

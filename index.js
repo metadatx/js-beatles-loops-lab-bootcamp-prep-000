@@ -18,12 +18,13 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   var arr = []
+  var cloneNum = num
   do{
     arr.push("I love the Beatles!")
     num++
   }while(num < 15);
   
-  if(num > 14){  
+  if(cloneNum > 14){  
     arr.push("I love the Beatles!")
     return arr
   }
